@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+
+<html>
+<body>
+
+<div id="welcomeMessage" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); color: white; display: flex; justify-content: center; align-items: center; font-size: 24px; z-index: 10;">
+  <div>
+    <p>Hoş geldiniz!</p>
+    <button onclick="closeMessage()" style="padding: 10px 20px; font-size: 16px;">Kapat</button>
+  </div>
+</div>
+
+<audio id="myAudio" loop hidden>
+  <source src="https://upload.wikimedia.org/wikipedia/commons/9/99/Istikl%C3%A2l_Marsi_instrumetal.ogg" type="audio/ogg">
+</audio>
+
+<script>
+function closeMessage() {
+  // Hoş geldiniz mesajını gizle
+  document.getElementById("welcomeMessage").style.display = "none";
+  
+  // Müziği başlat
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
+</script>
+
+</body>
+</html>
+
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yakında gelişmiş olacak bir site olacak</title>
+</head>
+<body>
+    <h1>Not Tek amacım öğrencilere sınav tarihlerini hatırlatıp strese sokmak!</h1>
+    <p>İş bu.</p>
+    
+    <h2>SINAV TARİHLERİ</h2>
+    <ul>
+        <li>Ara Sınav haftası</li>
+		<h4>Başlangıç 11.11.2024 Bitiş 17.11.2024</h4>
+        <li>Güz Yarıyıl Sonu Sınavları</li>
+        <li>Sınavların bitiş ve başlangıç aralığı</li>
+		<h4>Başlangıç 06.01.2025 Bitiş 31.01.2025</h4>
+    </ul>
+<a href=https://ozal.edu.tr/userfiles/files/test/akademik%20takvim/%C3%96NL%C4%B0SANS%20%20L%C4%B0SANS%20(1).pdf> Orjinal belgeyi Görmek İçin Tıklayın. </a>
+    <h2>İş bu.</h2>
+    
+
+</body>
+</html>
+
+
+  <p>Beklemede kalın</p>
+	
+   
+</body>
+</html>
